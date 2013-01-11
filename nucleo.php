@@ -40,7 +40,7 @@ function getTweets($hash_tag) {
     <div class="row">
       <blockquote class="pull-left">
         <p><t6>',$text,'</t6></p>
-        <small><a href="',$uri,'">',$author,'</a> - ',date('n/j/y g:i a',$time),' Id: ',$id,'</small>
+        <small><a href="',$uri,'">',$author,'</a> - ',date('n/j/y g:i a',$time),'</small>
       </blockquote>
     </div>';
 
